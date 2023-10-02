@@ -1,0 +1,25 @@
+body
+{
+	Background-color: lightblue;
+}
+
+ h1{
+	color:white;
+	font-family:Arial;
+}
+
+table { 
+border-collapse: collapse;
+}
+
+tr{
+border-bottom: 1px solid black;
+}
+
+td, th{
+	padding:5px;
+}
+
+
+
+
