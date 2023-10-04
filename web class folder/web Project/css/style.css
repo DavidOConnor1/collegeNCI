@@ -24,7 +24,11 @@ a[href]
 
 .footer 
 {
-    background-color: yellow;
+
+   float: center;
+   position: fixed;
+   bottom: 0%;
+    color: yellow;
 
 }
 
@@ -96,4 +100,28 @@ a[href]
 /*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
 .formBTN:hover {background-color: indigo;}
 
+.HeadsetDisplayer
+{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
 
+.DesktopDisplayer
+{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.monitorDisplayer
+{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+img
+{
+width: 100px;
+}
