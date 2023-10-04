@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<orders>
+    <invoice id="123">
+        <item>
+            <sku>101</sku>
+            <price>8.95$</price>
+        </item>
+        <item>
+            <sku>102</sku>
+            <price>9.99$</price>
+        </item>
+    </invoice>
+</orders>
