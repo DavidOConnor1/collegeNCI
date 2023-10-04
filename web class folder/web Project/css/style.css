@@ -1,5 +1,5 @@
 /*head css  */
-head
+head 
 {
     font-family: Verdana;
     letter-spacing: 1.1;
@@ -7,7 +7,7 @@ head
 }
 
 /*body css  */
-body
+body 
 {
     font-family: Verdana;
     letter-spacing: 1.3;
@@ -15,32 +15,85 @@ body
     align-items: center;
 }
 
-.menubar
-{
-    background-color: yellow;
-    text-decoration: white;
-}
+
 
 a[href] 
 {
     color: whitesmoke;
 }
 
-.footer
+.footer 
 {
-background-color: yellow;
+    background-color: yellow;
 
 }
 
+.menubar {
+    background-color: yellow;
+    text-decoration: white;
+}
 
 /* Home  Button */
-.homeBTN {
-	margin-left:1.5rem;
-	margin-right:2.5rem;
-	width:10rem;
-	height:4rem;
-  padding: 16px;
-  font-size: 16px;
-  border: none;	
-  cursor:pointer;
+.homeBTN 
+{
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+    width: 10rem;
+    height: 4rem;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
 }
+
+/*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
+.homeBTN:hover {background-color: indigo;}
+
+
+.productBTN 
+{
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+    width: 10rem;
+    height: 4rem;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
+.productBTN:hover {background-color: indigo;}
+
+.gamingBTN
+{
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+    width: 10rem;
+    height: 4rem;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
+.gamingBTN:hover {background-color: indigo;}
+
+.formBTN
+{
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+    width: 10rem;
+    height: 4rem;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
+.formBTN:hover {background-color: indigo;}
+
+
