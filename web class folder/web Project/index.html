@@ -10,41 +10,55 @@
     <div class="menubar">
         <div class="navBar">
             <button class="homeBTN" onclick="window.location.href = 'index.html'">Home</button></a> <!--Home Button-->
-
-            <div class="dropdown"> <!--divClass name-->
-                <button class="dropBTN">Products</button> <!--The buttons display-->
-                <div class="dropDown-history">
-                    <a href="">Computers</a> <!--link to charles babbage page-->
-                    <a href="">Television</a> <!--link to alan turnings page -->
-                </div> <!--End of drop down button-->
-            </div> <!--end of dropdown class-->
-
-            <button class="Form" onclick="">Form Page</button> <!--This button is for the form page-->>
+            <button class="productBTN" onclick="window.location.href = 'productPage,html'">Products</button></a> <!--Products Page Button-->
+            <button class="gamingBTN" onclick="window.location.href = 'GamingProductsPage.html'">Gaming Products</button></a> <!--Gaming Products Page Button-->
+            <button class="formBTN" onclick="FormPage.html">Form Page</button> <!--This button is for the form page-->>
         </div>
     </div>
 </head>
 
 <body>
-   <h1>Welcome To Shop4LessTech</h1>
-   <section class="introduction">
-    <p>
-        Our company has heard your calling and we are answering it!
-        We bring bargains to your favourite tech brands, all at to the tip of your fingers.
-        Look at latest hottest deals.
+    <h1>Welcome To Shop4LessTech</h1>
+    <section class="introduction">
+        <p>
+            Our company has heard your calling and we are answering it!
+            We bring bargains to your favourite tech brands, all at to the tip of your fingers.
+            Look at latest hottest deals.
         </p>
-   </section>
+    </section>
 
-   <section class="dealPictures">
-        <img src="img/headset 1.jpg" alt="Sony Pulse Headset" class="displayHomeHeadset"> 
-        <img src="img/monitor 1.jpg" alt="Huawei monitor" class="DisplayHomeMonitor">
-        <img src="img/desktop 3 Horizon.png" alt="Horizon desktop" class="DisplayHomeDesktop"> 
+    <section class="dealPictures">
+
+        <div class="HeadsetDisplayer">
+            <img src="img/headset 1.jpg" alt="Sony Pulse Headset" class="displayHomeHeadset">
+            <div class="textContainerHome1">
+                <h3>Sony Pulse Headset</h3>
+                <h4>78.99$</h4>
+            </div><!--End Div of textContainerHome1-->
+        </div><!--End Div of image-->
+
+        <div class="monitorDisplayer">
+            <img src="img/monitor 1.jpg" alt="Huawei monitor" class="DisplayHomeMonitor">
+            <div class="textContainerHome2">
+                <h3>Huawei monitor</h3>
+                <h4>99.99$</h4>
+            </div> <!--End Div of textContainerHome2-->
+        </div><!--End Div of image-->
+
+        <div class="DesktopDisplayer">
+            <img src="img/desktop 3 Horizon.png" alt="Horizon desktop" class="DisplayHomeDesktop">
+            <div class="textContainerHome3">
+                <h3>Horizon Desktop</h3>
+                <h4>699.99$</h4>
+            </div> <!--End Div of textContainerHome3-->
+        </div><!--End Div of image-->
     </section>
 
     <footer class="footerBox">
-    <p class="Footerlinks"><a href="index.html">Home Page</a>
-        <br><a href="productPage.html">Product Page</a>    
-        <br><a href="GamingProductsPage.html">Product Page</a> 
-        <br><a href="FormPage.html">Contact page</a>    
+        <p class="Footerlinks"><a href="index.html">Home Page</a>
+            <br><a href="productPage.html">Product Page</a>
+            <br><a href="GamingProductsPage.html">Product Page</a>
+            <br><a href="FormPage.html">Contact page</a>
     </footer>
 
 
