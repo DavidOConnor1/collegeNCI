@@ -1,36 +1,32 @@
 /*head css  */
-head 
-{
+head {
     font-family: Verdana;
     letter-spacing: 1.1;
     background-color: chartreuse;
 }
 
 /*body css  */
-body 
-{
+body {
     font-family: Verdana;
     letter-spacing: 1.3;
     background-color: indigo;
     align-items: center;
 }
 
+#banner{
+    width: 100%;
+  
+  height: 405px;
+  background-color: purple;
+  background-position: center;
+}
 
 
-a[href] 
-{
+a[href] {
     color: whitesmoke;
 }
 
-.footer 
-{
 
-   float: center;
-   position: fixed;
-   bottom: 0%;
-    color: yellow;
-
-}
 
 .menubar {
     background-color: yellow;
@@ -38,8 +34,7 @@ a[href]
 }
 
 /* Home  Button */
-.homeBTN 
-{
+.homeBTN {
     margin-left: 1.5rem;
     margin-right: 2.5rem;
     width: 10rem;
@@ -48,30 +43,17 @@ a[href]
     font-size: 16px;
     border: none;
     cursor: pointer;
-    
+
 }
 
 /*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
-.homeBTN:hover {background-color: indigo;}
-
-
-.productBTN 
-{
-    margin-left: 1.5rem;
-    margin-right: 2.5rem;
-    width: 10rem;
-    height: 4rem;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+.homeBTN:hover {
+    background-color: indigo;
+    text-decoration: chartreuse;
 }
 
-/*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
-.productBTN:hover {background-color: indigo;}
 
-.gamingBTN
-{
+.productBTN {
     margin-left: 1.5rem;
     margin-right: 2.5rem;
     width: 10rem;
@@ -83,10 +65,12 @@ a[href]
 }
 
 /*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
-.gamingBTN:hover {background-color: indigo;}
+.productBTN:hover {
+    background-color: indigo;
+    text-decoration: chartreuse;
+}
 
-.formBTN
-{
+.gamingBTN {
     margin-left: 1.5rem;
     margin-right: 2.5rem;
     width: 10rem;
@@ -98,30 +82,74 @@ a[href]
 }
 
 /*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
-.formBTN:hover {background-color: indigo;}
+.gamingBTN:hover {
+    background-color: indigo;
+    text-decoration: chartreuse;
+}
 
-.HeadsetDisplayer
-{
+.formBTN {
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+    width: 10rem;
+    height: 4rem;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/*This will change the color when the user hovers over the button, indicating to the user which button they're hovering over*/
+.formBTN:hover {
+    background-color: indigo;
+    text-decoration: chartreuse;
+}
+/*start of columns*/
+
+.HeadsetDisplayer {
     float: left;
     width: 30%;
     padding: 5px;
 }
 
-.DesktopDisplayer
-{
+.DesktopDisplayer {
     float: left;
     width: 30%;
     padding: 5px;
 }
 
-.monitorDisplayer
-{
+.monitorDisplayer {
     float: left;
     width: 30%;
     padding: 5px;
 }
 
-img
-{
-width: 100px;
+/*end of columns*/
+img {
+    width: 100px;
+}
+
+.footer {
+
+    position: fixed;
+    bottom: 0%;
+    background-color: rgba(255, 255, 0, 0.989);
+    border: 2px solid rgba(255, 255, 0, 0.989);
+}
+
+.Footerlinks {
+    display: block;
+    position: fixed;
+    bottom: 0%;
+   color: whitesmoke;
+}
+
+.footer a{
+    color: indigo;
+}
+
+.CopyRightBox {
+	font-size: 14px;
+	font-family:Arial;
+	color: #ffffff ;
+	text-align: right;
 }
