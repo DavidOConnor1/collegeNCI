@@ -3,7 +3,7 @@ import numpy as np
 
 arrp = np.array([4,8,9,1])
 
-#print(np.average(arrp))
+print(np.average(arrp))
 
 arr=[1,5,9,200,4,8,7]
 x = 200
