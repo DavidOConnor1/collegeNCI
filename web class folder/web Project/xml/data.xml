@@ -4,7 +4,7 @@
         <introParagraph /> Our company has heard your calling and we are answering it!
             We bring bargains to your favourite tech brands, all at to the tip of your fingers.
             Look at latest hottest deals.
-    </introduction>
+    
 
     <whatWeAbout>
         <wwaHeading />What Are We About?
@@ -12,5 +12,13 @@
         We know that good quality equipment does not come cheap! but at here in Shop4LessTech bring you, your favourite brands at sustainable price!<br>
     We love to know more from 
     </whatWeAbout>
+   
+
+   
+   
+    </introduction>
+
+
+
 
 </information>
