@@ -1,13 +1,16 @@
 <? xml version="1.0"?>
 <products xlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="products.xsd">
-<xsd: element name="" type=""/>
-<xsd: element name="Category" type="String"/>
-<xsd: element name="code" type="integer"/>
-<xsd: element name="name" type="String"/>
-<xsd: element name="description" type="String"/>
-<xsd: element name="quantity" type="double"/>
-<xsd: element name="unitPrice" type="integer"/>
-
+<xsd:element name="product">
+<xsd:complexType>
+<xsd:element name="" type=""/>
+<xsd:element name="Category" type="String"/>
+<xsd:element name="code" type="integer"/>
+<xsd:element name="name" type="String"/>
+<xsd:element name="description" type="String"/>
+<xsd:element name="quantity" type="double"/>
+<xsd:element name="unitPrice" type="integer"/>
+</xsd:complexType >
+</xsd:element>
 
 
 </xsd:schema>
