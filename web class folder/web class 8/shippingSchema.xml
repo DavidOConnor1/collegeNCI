@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:group name="customerGroup">
+<xs:sequence>
+<xs:element name="name" type="xs:string"/>
+<xs:element name="address" type="xs:string"/>
+<xs:element name="city" type="xs:string"/>
+<xs:element name="country" type="xs:string"/>
+</xs:sequence>
+</xs:group>
+
+<xs:group name="items">
+<xs:complexType name="item">
+<xs:element name="title" type="xs:string"/>
+<xs:element name="note" type="xs:string"/>
+<xs:element name="quantity" type="xs:double"/>
+<xs:element name="price" type="xs:decimal"/>
+</xs:complexType>
+</xs:group>
+
+<xs:element name="shipOrder" type="orderID"/> <!--This is a root tag-->
+
+<xs:element name="orderPerson" type="xs:string"/>
+<xs:element name="shipto" type="shipping">
+<xs:complexType type="shipping">
+<xs:group ref="customerGroup"/>
+<xs:group ref="items"/>
+</xs:complexType>
+
+
+</xs:element> <!--end of root tag-->
+</xs:schema> <!--end of schema-->
