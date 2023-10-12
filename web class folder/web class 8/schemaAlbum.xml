@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name = "album">
+<xs:complexType>
+<xs:sequence>
+	<xs:element name="Artist" type="xs:string"/>
+	<xs:element name="genre" type="xs:string"/>
+	<xs:element name="title" type="xs:string"/>
+<xs:element name ="track">
+<xs:complexType>
+<xs:sequence>
+	<xs:element name="name" type="xs:string"/>
+	<xs:element name="duration" type="xs:integer"/>
+	<xs:element name="number" type="xs:integer"/>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	<xs:element name="price" type="xs:integer"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+<album>
+	<Artist>bob</Artist>
+	<genre>hewll</genre>
+	<title>hello</title>
+<track>
+	<name>hell</name>
+       <duration>23</duration>
+       <number>44</number>
+</track>
+<price>33</price>
+</album>
