@@ -15,14 +15,27 @@
 </xs:group>
 
 
-<xs:element name="information1">
-<xs:complexType>
-<xs:element name="intro">
-<xs:complexType>
+<xs:element name="information1"> <!--THis is the root tag-->
+<xs:complexType> <!--Thiss is the first complex tag used to establish the root tag of the index page-->
 
-</xs:complexType>
+
+<xs:element name="intro"> <!--this is the first paragraph and heading in the index-->
+<xs:complexType>
+<xs:group ref="introduction"/>
 </xs:complexType>
 </xs:element>
+
+<xs:element name="WhatAreWeABout"> <!--this is the second paragraph and heading in the index-->
+<xs:complexType>
+<xs:group ref="whatWeAbout"/>
+</xs:complexType>
+</xs:element>
+
+
+
+
+</xs:complexType> <!--End of root complex type-->
+</xs:element> <!--the end of the first root tag-->
 
 
 
