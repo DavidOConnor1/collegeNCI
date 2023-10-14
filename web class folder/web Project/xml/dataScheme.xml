@@ -1,0 +1,33 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:group name="introduction">
+<xs:sequence>
+<xs:element name="introHeading" type="xs:string"/>
+<xs:element name="introParagraph" type="xs:string"/>
+</xs:sequence>
+</xs:group>
+
+<xs:group name="whatWeAbout">
+<xs:sequence>
+<xs:element name="wwaHeading" type="xs:string"/>
+<xs:element name="wwaParagraph" type="xs:string"/>
+</xs:sequence>
+</xs:group>
+
+
+<xs:element name="information1">
+<xs:complexType>
+<xs:element name="intro">
+<xs:complexType>
+
+</xs:complexType>
+</xs:complexType>
+</xs:element>
+
+
+
+
+
+
+
+</xs:schema>
