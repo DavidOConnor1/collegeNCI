@@ -175,3 +175,15 @@ img {
     color: #ffffff;
     text-align: right;
 }
+
+.sideBar{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    right: 0;
+    background-color: yellow;
+    overflow: hidden;
+    padding-top: 20px;
+}
