@@ -27,12 +27,27 @@ a[href] {
     color: whitesmoke;
 }
 
-
-
-.menubar {
+.navBar{
     background-color: yellow;
-    text-decoration: white;
+    overflow: hidden;
 }
+
+.navBar{
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+.navBar-right{
+    float: right;
+}
+
+
 
 /* Home  Button */
 .homeBTN {
