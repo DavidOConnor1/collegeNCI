@@ -188,3 +188,13 @@ img {
     padding-top: 20px;
 }
 
+.main{
+    margin-right: 200px;
+    padding: 0px 10px;
+    padding-top: 10%;
+}
+
+@media screen and (max-height:450px) {
+    .sideBar {padding-top: 15px;}
+
+}
