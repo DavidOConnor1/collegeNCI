@@ -12,6 +12,14 @@
 </xs:sequence>
 </xs:group>
 
+<xs:group name="displayProducts">
+<xs:sequence>
+<xs:element name="name" type="xs:string"/>
+<xs:element name="category" type="xs:string"/>
+<xs:element name="dealPrice" type="xs:decimal"/>
+</xs:sequence>
+</xs:group>
+
 
 <xs:element name="products">
 <xs:complexType>
@@ -20,4 +28,11 @@
 </xs:element>
 </xs:complexType>
 </xs:element>
+
+<xs:element name="display">
+<xs:complexType>
+<xs:group ref="displayProducts"/>
+</xs:complexType>
+</xs:element>
+
 </xs:schema>
