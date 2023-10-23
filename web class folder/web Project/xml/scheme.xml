@@ -7,32 +7,20 @@
 <xs:element name="code" type="xs:integer"/>
 <xs:element name="name" type="xs:string"/>
 <xs:element name="Description" type="xs:string"/>
-<xs:element name="Quantity" type="xs:integer"/>
-<xs:element name="Unit_Price" type="xs:decimal"/>
+<xs:element name="Quantity"  type="xs:integer"/>
+<xs:element name="Unit_Price"  type="xs:decimal"/>
 </xs:sequence>
 </xs:group>
-
-<xs:group name="displayProducts">
-<xs:sequence>
-<xs:element name="name" type="xs:string"/>
-<xs:element name="category" type="xs:string"/>
-<xs:element name="dealPrice" type="xs:decimal"/>
-</xs:sequence>
-</xs:group>
-
 
 <xs:element name="products">
+
 <xs:complexType>
-<xs:element name="product">
+
 <xs:group ref="item"/>
-</xs:element>
+
 </xs:complexType>
+
 </xs:element>
 
-<xs:element name="display">
-<xs:complexType>
-<xs:group ref="displayProducts"/>
-</xs:complexType>
-</xs:element>
 
 </xs:schema>
