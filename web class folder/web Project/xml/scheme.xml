@@ -8,7 +8,7 @@
 <xs:element name="name" type="xs:string"/>
 <xs:element name="Description" type="xs:string"/>
 <xs:element name="Quantity" type="xs:integer"/>
-<xs:element name="Unit_Price" type="decimal"/>
+<xs:element name="Unit_Price" type="xs:decimal"/>
 </xs:sequence>
 </xs:group>
 
