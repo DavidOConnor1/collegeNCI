@@ -1,10 +1,8 @@
 <products>
-<product>
-<category></category>
-<code></code>
-<name></name>
-<description></description>
-<quantity></quantity>
-<unitPrice></unitPrice>
-</product>
+<category>tv</category>
+<code>334</code>
+<name>LG</name>
+<Description>hello world</Description>
+<Quantity>10</Quantity>
+<Unit_Price>1110.99</Unit_Price>
 </products>
