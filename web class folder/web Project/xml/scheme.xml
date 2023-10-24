@@ -1,24 +1,25 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:group name="item">
+    <xs:group name="itemGroup">
         <xs:sequence>
-            <xs:element name="category"
-                        type="xs:string" />
-            <xs:element name="code"
-                        type="xs:integer" />
-            <xs:element name="name"
-                        type="xs:string" />
-            <xs:element name="Description"
-                        type="xs:string" />
-            <xs:element name="Quantity"
-                        type="xs:integer" />
-            <xs:element name="Unit_Price"
-                        type="xs:decimal" />
+            <xs:element name="category" type="xs:string" />
+            <xs:element name="code" type="xs:integer" />
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="Description" type="xs:string" />
+            <xs:element name="Quantity" type="xs:integer" />
+            <xs:element name="Unit_Price" type="xs:decimal" />
         </xs:sequence>
     </xs:group>
+
     <xs:element name="products">
         <xs:complexType>
-            <xs:group ref="item" />
+            <xs:sequence>
+                <xs:element name="product" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:group ref="itemGroup" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
         </xs:complexType>
     </xs:element>
 </xs:schema>
