@@ -1,8 +1,9 @@
+-- SQLBook: Code
 CREATE TABLE Crops (
     CropID int not null,
     CropName VARCHAR (20),
-    PricePerKilo DOUBLE,
-    Weight int,
+    PricePerTon DOUBLE,
+    CropWeight int,
     PRIMARY KEY (CropID)
 );
 
@@ -65,3 +66,17 @@ CREATE TABLE Farm_Inventory(
     CostofAnimalFeed&Crops DECIMAL,
     weightOfanimalFeed&Crops DECIMAL
 );
+
+INSERT INTO Crops VALUES('927', 'Maize', '182', '30');
+INSERT INTO Crops VALUES('103', 'Beans', '285', '35');
+INSERT INTO Crops VALUES('923', 'Peas', '500', '10');
+INSERT INTO Crops VALUES('13', 'Oilseedrape', '700', '80');
+INSERT INTO Crops VALUES('83', 'beets', '40', '301');
+INSERT INTO Crops VALUES('283', 'potatoes', '530', '30');
+
+INSERT INTO Animals Values('3521', 'Cow', 'Dexter Cattle', 'Male', 'Calf');
+INSERT INTO Animals Values('321', 'Sheep', 'Scottish BlackFace', 'female', 'lamb');
+INSERT INTO Animals Values('21', 'Pig', 'Large White', 'Male', 'piglet');
+INSERT INTO Animals Values('3521', 'Cow', 'Dexter Cattle', 'Male', 'Calf');
+INSERT INTO Animals Values('3521', 'Cow', 'Dexter Cattle', 'Male', 'Calf');
+INSERT INTO Animals Values('3521', 'Cow', 'Dexter Cattle', 'Male', 'Calf');
