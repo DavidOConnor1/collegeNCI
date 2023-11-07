@@ -77,6 +77,11 @@ INSERT INTO Crops VALUES('283', 'potatoes', '530', '30');
 INSERT INTO Animals Values('3521', 'Cow', 'Dexter Cattle', 'Male', 'Calf');
 INSERT INTO Animals Values('321', 'Sheep', 'Scottish BlackFace', 'female', 'lamb');
 INSERT INTO Animals Values('21', 'Pig', 'Large White', 'Male', 'piglet');
-INSERT INTO Animals Values('3521', 'Cow', 'Dexter Cattle', 'Male', 'Calf');
-INSERT INTO Animals Values('3521', 'Cow', 'Dexter Cattle', 'Male', 'Calf');
-INSERT INTO Animals Values('3521', 'Cow', 'Dexter Cattle', 'Male', 'Calf');
+INSERT INTO Animals Values('99', 'Cow', 'Angus', 'female', 'mature');
+INSERT INTO Animals Values('111', 'Pig', 'Landrace', 'female', 'gilt');
+
+
+INSERT INTO AnimalFeed VALUES('333', '', '', '','');
+INSERT INTO AnimalFeed VALUES('124', '', '', '','');
+INSERT INTO AnimalFeed VALUES('456', '', '', '','');
+INSERT INTO AnimalFeed VALUES('', '', '', '','');
