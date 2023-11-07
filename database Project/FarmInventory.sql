@@ -61,6 +61,7 @@ CREATE TABLE Farm_Inventory(
     Foreign Key (AnimalID) REFERENCES Animals(AnimalID),
     Foreign Key (CropID) REFERENCES Crops(CropID),
     Foreign Key (ToolsID) REFERENCES Tools(ToolsID),
-
-
+    QuantityOfTools int,
+    CostofAnimalFeed&Crops DECIMAL,
+    weightOfanimalFeed&Crops DECIMAL
 );
