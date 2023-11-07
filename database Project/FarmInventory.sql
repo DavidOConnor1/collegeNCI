@@ -1,23 +1,24 @@
 CREATE TABLE Crops (
     CropID int not null,
-    CropName String (20),
-    PricePerKilo double,
+    CropName VARCHAR (20),
+    PricePerKilo DOUBLE,
     Weight int,
     PRIMARY KEY (CropID)
 );
 
-CREATE INDEX idx_CropName
-ON Crops (CropName);
+CREATE INDEX idx_CropName ON Crops (CropName);
 
 
 CREATE TABLE Animals(
     AnimalID int not null,
-    Type VARCHAR(20),
+    AnimalType VARCHAR(10),
     Breed VARCHAR (20),
     Gender VARCHAR (10),
     StageOfDevelopment VARCHAR (10),
     PRIMARY KEY (AnimalID)
 );
+
+CREATE INDEX idx_AnimalType ON Animals(AnimalType);
 
 Create TABLE AnimalFeed(
     AnimalFeedID int not null,
@@ -28,6 +29,9 @@ Create TABLE AnimalFeed(
     PRIMARY KEY (AnimalFeedID)
 );
 
+CREATE INDEX idx_Brand on AnimalFeed(Brand);
+
+
 CREATE TABLE soilMaterial(
     SoilMaterialID int not NULL,
     SMname VARCHAR (20),
@@ -37,6 +41,8 @@ CREATE TABLE soilMaterial(
    pricePerSMWeight INT,
    PRIMARY KEY (SoilMaterialID)
 );
+
+CREATE INDEX idx_acronyms on soilMaterial(acronyms);
 
 CREATE TABLE Farm_Inventory(
 
