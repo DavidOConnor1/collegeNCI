@@ -42,8 +42,25 @@ CREATE TABLE soilMaterial(
    PRIMARY KEY (SoilMaterialID)
 );
 
+
 CREATE INDEX idx_acronyms on soilMaterial(acronyms);
 
-CREATE TABLE Farm_Inventory(
+CREATE TABLE Tools(
+    ToolsID int not null,
+    ToolType VARCHAR(12),
+    ToolName VARCHAR(20),
+    QuantityofTool INT,
+    PricePerTool int,
+    PRIMARY KEY (ToolsID)
+);
 
-)
+
+CREATE TABLE Farm_Inventory(
+    Foreign Key (SoilMaterialID) REFERENCES soilMaterial(SoilMaterialID),
+    Foreign Key (AnimalFeedID) REFERENCES AnimalFeed(AnimalFeedID),
+    Foreign Key (AnimalID) REFERENCES Animals(AnimalID),
+    Foreign Key (CropID) REFERENCES Crops(CropID),
+    Foreign Key (ToolsID) REFERENCES Tools(ToolsID),
+
+
+);
