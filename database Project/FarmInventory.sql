@@ -1,8 +1,7 @@
 -- SQLBook: Code
 
-CREATE DATABASE Farm_Inventory;
 
-CREATE TABLE Crops (
+CREATE TABLE Farm_Inventory.Crops (
     CropID int not null,
     CropName VARCHAR (20),
     PricePerTon DOUBLE,
@@ -10,10 +9,10 @@ CREATE TABLE Crops (
     PRIMARY KEY (CropID)
 );
 
-CREATE INDEX idx_CropName ON Crops (CropName);
+CREATE INDEX idx_CropName1 ON Crops (CropName);
 
 
-CREATE TABLE Animals(
+CREATE TABLE Farm_Inventory.Animals(
     AnimalID int not null,
     AnimalType VARCHAR(10),
     Breed VARCHAR (20),
@@ -22,9 +21,9 @@ CREATE TABLE Animals(
     PRIMARY KEY (AnimalID)
 );
 
-CREATE INDEX idx_AnimalType ON Animals(AnimalType);
+CREATE INDEX idx_AnimalType2 ON Animals(AnimalType);
 
-Create TABLE AnimalFeed(
+Create TABLE Farm_Inventory.AnimalFeed(
     AnimalFeedID int not null,
     FeedName VARCHAR (20),
     Brand VARCHAR (20),
@@ -33,10 +32,10 @@ Create TABLE AnimalFeed(
     PRIMARY KEY (AnimalFeedID)
 );
 
-CREATE INDEX idx_Brand on AnimalFeed(Brand);
+CREATE INDEX idx_Brand3 on AnimalFeed(Brand);
 
 
-CREATE TABLE soilMaterial(
+CREATE TABLE Farm_Inventory.soilMaterial(
     SoilMaterialID int not NULL,
     SMname VARCHAR (20),
    acronyms VARCHAR (3),
@@ -47,9 +46,9 @@ CREATE TABLE soilMaterial(
 );
 
 
-CREATE INDEX idx_acronyms on soilMaterial(acronyms);
+CREATE INDEX idx_acronyms2 on soilMaterial(acronyms);
 
-CREATE TABLE Tools(
+CREATE TABLE Farm_Inventory.Tools(
     ToolsID int not null,
     ToolType VARCHAR(12),
     ToolName VARCHAR(20),
