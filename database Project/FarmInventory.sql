@@ -1,4 +1,7 @@
 -- SQLBook: Code
+
+CREATE DATABASE Farm_Inventory;
+
 CREATE TABLE Crops (
     CropID int not null,
     CropName VARCHAR (20),
