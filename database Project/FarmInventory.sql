@@ -83,7 +83,7 @@ INSERT INTO Animals Values('99', 'Cow', 'Angus', 'female', 'mature');
 INSERT INTO Animals Values('111', 'Pig', 'Landrace', 'female', 'gilt');
 
 
-INSERT INTO Farm_Inventory.AnimalFeed (AnimalFeedID, FeedName, Brand, PRICEperKilogram, weightofFeed)
+INSERT INTO AnimalFeed (AnimalFeedID, FeedName, Brand, PRICEperKilogram, weightofFeed)
 VALUES 
 (301, 'Cattle Feed', 'CatShop', 50, 25),
 (302, 'Chicken Feed', 'Natures Best', 40, 50),
