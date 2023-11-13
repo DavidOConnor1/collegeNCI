@@ -83,7 +83,13 @@ INSERT INTO Animals Values('99', 'Cow', 'Angus', 'female', 'mature');
 INSERT INTO Animals Values('111', 'Pig', 'Landrace', 'female', 'gilt');
 
 
-INSERT INTO AnimalFeed VALUES('333', '', '', '','');
-INSERT INTO AnimalFeed VALUES('124', '', '', '','');
-INSERT INTO AnimalFeed VALUES('456', '', '', '','');
-INSERT INTO AnimalFeed VALUES('', '', '', '','');
+INSERT INTO Farm_Inventory.AnimalFeed (AnimalFeedID, FeedName, Brand, PRICEperKilogram, weightofFeed)
+VALUES 
+(301, 'Cattle Feed', 'CatShop', 50, 25),
+(302, 'Chicken Feed', 'Natures Best', 40, 50),
+(303, 'Cow Feed', 'LivestockPlus', 45, 50),
+(304, 'Sheep Feed', 'HealthyHarvest', 55, 20),
+(305, 'Horse Feed', 'PureFeed', 60, 30),
+(306, 'Goat Feed', 'Vitality', 50, 22),
+(307, 'Birds Feed', 'RangeReady', 70, 15),
+(308, 'Turkey Feed', 'FieldFare', 65, 40);
