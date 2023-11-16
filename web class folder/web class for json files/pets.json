@@ -1,34 +1,37 @@
 {
-    "pets" : [
-
-            {"ID": 7,
+    "pets": [
+        {
+            "ID": 7,
             "name": "Eugene",
-             "category": "cat",
-                "Breed": "Siamese",
+            "category": "cat",
+            "Breed": "Siamese",
             "DateAdopted": "01/25/2011",
             "Gender": "Male",
             "Registered": "CFA",
             "Color": "Black",
-            "ListPrice": 279.54    },
-            {"ID": 8,
+            "ListPrice": 279.54
+        },
+        {
+            "ID": 8,
             "name": "Miranda",
-             "category": "Dog",
-                "Breed": "Norfolk Terrier",
+            "category": "Dog",
+            "Breed": "Norfolk Terrier",
             "DateAdopted": "05/04/2011",
             "Gender": "Female",
             "Registered": "AKC",
             "Color": "Red",
-            "ListPrice": 203.75  },
-            {"ID": 10,
+            "ListPrice": 203.75
+        },
+        {
+            "ID": 10,
             "name": "Sherri",
-             "category": "Dog",
-                "Breed": "Siberian Huskie",
+            "category": "Dog",
+            "Breed": "Siberian Huskie",
             "DateAdopted": "09/13/2011",
             "Gender": "Female",
             "Registered": "AKC",
             "Color": "ReBlack/White",
-            "ListPrice": 166.79}
-
-
+            "ListPrice": 166.79
+        }
     ]
-} 
+}
