@@ -47,6 +47,68 @@ function updateResult(fragment) {
 }
 
 
+function searchTable()
+{
+	
+	var input, fitler, table, tr, td, i , txtValue;
+	input = document.getElementById("search");
+	fitler = input.value.toUpperCase();
+	table = document.getElementById("productsTable");
+	tr = table.getElementsByTagName("tr");
+	
+	for(i = 0; i<tr.length; i++)
+	{
+		td = tr[i].getElementsByTagName("td")[0];
+		if(td)
+		{
+			txtValue = td.textContent || td.innerText;
+			if(txtValue.toUpperCase().indexOf(fitler) > -1)
+			{
+				tr[i].style.display = "";
+			} else {
+					tr[i].style.display = "none";
+			}
+		}
+	}
+	
+	
+}
+
+function searchTable() {
+ 
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("search");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("productsTable");
+    tr = table.getElementsByTagName("tr");
+      
+          var expandSearch = [0,1,3,5];
+   
+    for (i = 0; i < tr.length; i++) {
+        var display = "none";
+      //td = tr[i].getElementsByTagName("td")[1];
+          for(j=0; j < expandSearch.length; j++){
+              var indexing = expandSearch[j];
+              td = tr[i].getElementsByTagName("td")[indexing];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+      }
+      tr[i].style.display = display;
+   }
+    
+    
+  }
+
+
+
+
+
 			</script>	
 				
 				
