@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <title>Layout 2</title>
+
+            <link rel="stylesheet"	href="css/style.css">
+			<script>
+	var xmlFile = 'products.xml';
+var xsltFile = 'productsDesign.xsl';
+
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function () { //open
+    if (xhr.readyState == 4 && xhr.status == 200) {
+        var parser = new DOMParser();
+        var xmlDoc = parser.parseFromString(xhr.responseText, 'text/xml');
+
+        var xsltProcessor = new XSLTProcessor();
+        var xsltDoc = new DOMParser().parseFromString(xhr.responseText, 'text/xml');
+
+        updateResult(xsltProcessor.transformToFragment(xmlDoc, document));
+
+      window.searchXML = function () {
+    var searchTerm = document.getElementById('searchP').value.toLowerCase();
+    var xpathResult = xmlDoc.evaluate('//product[contains(name, "' + searchTerm + '") or contains(code, "' + searchTerm + '")]', xmlDoc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+
+    var resultDIV = document.getElementById('displayArea-div');
+    resultDIV.innerHTML = '';
+
+    for (var i = 0; i < xpathResult.snapshotLength; i++) {
+        var productNode = xpathResult.snapshotItem(i);
+        var fragment = xsltProcessor.transformToFragment(productNode, document);
+        resultDIV.appendChild(fragment);
+    }
+};
+
+    } //end
+}
+
+xhr.open('GET', xmlFile, true);
+xhr.send();
+
+function updateResult(fragment) {
+    var resultDIV = document.getElementById('displayArea-div');
+    resultDIV.innerHTML = '';
+    resultDIV.appendChild(fragment);
+}
+
+
+			</script>	
+				
+				
+				
+				
+			
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<div id="logo-div">
+			<h1>Shop4LessTech</h1>
+			</div>
+			
+			<div	id="main-div" class="clearfix">
+			
+			<div id="left-Div">
+				<div id="sidebar-div">
+				<h3>Navigation</h3>
+				</div>
+					<div id="nav-div">
+						<button id="homeBTN" onclick="location.href='index.html'">Home</button>
+						<button id="productsBTN" onclick="location.href='productsPage.html'">products</button>
+						<button id="searchBTN" onclick="location.href='search.html'">Search</button>
+					
+					
+					
+					</div>
+					
+				
+				</div>
+				
+				<div id="right-Div">
+					<div id="header-div">
+					<h3>Search for Product</h3>
+					</div>
+						<input type="text" id="searchP" placeholder ="Enter Your Product">
+						<button id="searchButton" onclick="searchXml()">Search</button>
+					<div id="bodyArea-div">
+						
+						
+						<div id="displayArea-div"></div>
+						
+						
+					
+					
+					</div>
+				</div>
+			</div>
+			
+			<div id="footer-div">
+				footer
+			</div>
+	
+	</div>
+	
+
+</body>
+
+</html>
