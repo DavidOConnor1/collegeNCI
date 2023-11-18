@@ -119,7 +119,7 @@ function addingToCart(){
 function addPrices()
 {
 	sum =0;
-		for(i =0; i<.basketItems.length; i++)
+		for(i =0; i<basketItems.length; i++)
 		{
 			sum += basketItems[i].itemPrice;
 			
