@@ -31,6 +31,17 @@ function updateResult(fragment) {
 }
 
 
+	var desc = {
+    "brief" : "I have decided to store all the information I am going to use for the web page within a json file to keep the code more secure",
+    "index":[{
+        "greeting":"Welcome to Shop4LessTech where we bring in big brands & deliever them at a bargain.In our online store our products range from Tv's, Headphones & desktops.We provided brand new products for you, this store does not hand you referburished equipment. We Manufactor these products in our own warehouses and want you the customer to save your money!"
+    }]
+    
+}
+
+var indexDesc = desc.index[0];
+var myJson = JSON.stringify(desc);
+document.getElementById("intro").innerHTML = myJson;
 	
 
 
@@ -71,7 +82,8 @@ function addToBasket() {
 	var itemCategory = document.getElementById("productCategory").innerText;
 	var itemPrice = document.getElementById("productPrice").innerText;
 	var itemQuantity = 0;
-						var basketItems =
+
+var basketItems =
 {//open basketItems
         "basket": //open
     {//open basket
@@ -112,8 +124,9 @@ function addToBasket() {
 alert("Hello! I am an alert box!!");
 
 function addingToCart(){
-	addEventListener()
-	alert('Hello World!');
+	var basket = [];
+	
+	
 }
 
 function addPrices()
@@ -126,14 +139,6 @@ function addPrices()
 		}
 		return sum;
 }
-
-var desc = {
-    "brief" : "I have decided to store all the information I am going to use for the web page within a json file to keep the code more secure",
-    "index":[{
-        "greeting":"Welcome to Shop4LessTech where we bring in big brands & deliever them at a bargain.In our online store our products range from Tv's, Headphones & desktops.We provided brand new products for you, this store does not hand you referburished equipment. We Manufactor these products in our own warehouses and want you the customer to save your money!"
-    }]
-    
-};
 
 
 
