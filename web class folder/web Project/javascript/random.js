@@ -142,3 +142,56 @@ function addPrices()
 
 
 
+var basketItems = [];
+
+function addToBasket(product) {
+ var existingItem = basketItems.find(function(item) {
+    return item.productID === product.productID;
+ });
+
+ if (existingItem) {
+    existingItem.quantity++;
+ } else {
+    var newItem = {
+      productID: product.productID,
+      productName: product.productName,
+      productCategory: product.productCategory,
+      productPrice: product.productPrice,
+      quantity: 1
+    };
+
+    basketItems.push(newItem);
+ }
+}
+
+function getTotal() {
+ var sum = 0;
+
+ for (var i = 0; i < basketItems.length; i++) {
+    sum += basketItems[i].productPrice * basketItems[i].quantity;
+ }
+
+ return sum;
+}
+
+var desc = {
+  "brief":"I have decided to store all the information I am going to use for the web page within a json file to keep the code more secure",
+  "index":{
+      "greeting":"Welcome to Shop4LessTech where we bring in big brands & deliever them at a bargain.In our online store our products range from Tv's, Headphones & desktops.We provided brand new products for you, this store does not hand you referburished equipment. We Manufactor these products in our own warehouses and want you the customer to save your money!"
+  }  
+}
+
+
+$("#submitBTN").click(function()
+{
+	let val = document.getElementsByClassName(".contact-form-input").value;
+	console.log(val);
+	
+	//check the input
+	if(val === ""){
+		alert("Please Fill in all of the fields before submitting!");
+	
+	} else {
+		alert("Your Request Has Been Sent");
+	}
+});
