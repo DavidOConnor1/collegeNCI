@@ -9,3 +9,9 @@ break;
 }
 }
 alert (checkedValue);
+
+$("#myButton").click(function()
+{
+    alert("Hello world");
+//some actions
+});
