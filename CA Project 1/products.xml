@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/xsl" href="productsDesign.xsl"?>
+
+
+
+
+
+
+	<products>
+    <product>
+    <category>Visual</category>
+    <code>113</code>
+    <name>Samsung CU7100 UHD 4K HDR Smart TV</name>
+    <Description>Samsung brings you the best tv to date! 2023 43" CU7100 UHD 4K HDR Smart TV</Description>
+    <Quantity>05</Quantity>
+    <Unit_Price>350.00</Unit_Price>
+	<productPicture>img/samsungTV.png</productPicture>
+    </product>
+	
+<product>
+    <category>Audio</category>
+    <code>224</code>
+    <name>Sony</name>
+    <Description>This is the best gaming headset that sony has produced to bring out the full experience of the ps5 3D audio features</Description>
+    <Quantity>100</Quantity>
+    <Unit_Price>80.50</Unit_Price>
+	<productPicture>img/sonyHeadset.jpg</productPicture>
+    </product>
+	
+	<product>
+    <category>Desktops</category>
+    <code>392</code>
+    <name>AlienWare Aurora R15 Gaming Desktop</name>
+    <Description>Speed, Power  everything else you could want from one desktop is delivered in this desktop.</Description>
+    <Quantity>40</Quantity>
+    <Unit_Price>2110.99</Unit_Price>
+	<productPicture>img/alienWareAurora1.png</productPicture>
+    </product>
+	
+	<product>
+    <category>Audio</category>
+    <code>223</code>
+    <name>Razer Shark Headset</name>
+    <Description>Want to have the competitive edge against your online opponets. The razer shark headset will be your latest investment </Description>
+    <Quantity>15</Quantity>
+    <Unit_Price>69.99</Unit_Price>
+	<productPicture>img/blackSharkHeadset.jpg</productPicture>
+    </product>
+	
+	<product>
+    <category>Desktops</category>
+    <code>391</code>
+    <name>Acer Predator</name>
+    <Description>You want professional gaming pc with the edge on your online enemies then this is the prebuilt computer is for you</Description>
+    <Quantity>10</Quantity>
+    <Unit_Price>999.99</Unit_Price>
+	<productPicture>img/AcerPredator.png</productPicture>
+    </product>
+	
+	<product>
+    <category>Visual</category>
+    <code>112</code>
+    <name>LG Ultra Gear 1080p 144hz</name>
+    <Description>Your screen quality time with quality graphics</Description>
+    <Quantity>10</Quantity>
+    <Unit_Price>130.00</Unit_Price>
+	<productPicture>img/LGMonitor.jpg</productPicture>
+    </product>
+	
+	<product>
+    <category>Desktops</category>
+    <code>390</code>
+    <name>Horizon Gaming PC</name>
+    <Description>This pc takes both great qualities from the gaming world and the editing world. You want to experience</Description>
+    <Quantity>10</Quantity>
+    <Unit_Price>1110.99</Unit_Price>
+	<productPicture>img/Horizon.png</productPicture>
+    </product>
+	
+	<product>
+    <category>Audio</category>
+    <code>222</code>
+    <name>Audio-Technica M50x</name>
+    <Description>These headphones provide you with experience that is suited for on the go listening, studio recording and gaming </Description>
+    <Quantity>10</Quantity>
+    <Unit_Price>110.99</Unit_Price>
+	<productPicture>img/ath50x.jpg</productPicture>
+    </product>
+	
+	<product>
+    <category>Visual</category>
+    <code>111</code>
+    <name>Philips 55" Xtra 4K UHD HDR Smart TV </name>
+    <Description>Quality Like never before</Description>
+    <Quantity>1200</Quantity>
+    <Unit_Price>800.00</Unit_Price>
+	<productPicture>img/philipsTV.png</productPicture>
+    </product>
+	
+	
+</products>
