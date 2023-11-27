@@ -1,67 +1,56 @@
 <certIn_Computing>
-<title>Certificate in Computing</title>
-<programDescriptor>
-<programCode>CCOMP</programCode>
-<programDuration>1</programDuration>
-<levelSpecifications>
-<programLevel> 8 </programLevel>
-<EQF_Level> 6 </EQF_Level>
-<EHEA_Level> First Cycle</EHEA_Level>
-</levelSpecifications>
-<programCredits>20</programCredits>
-<semesterDuration> 12 week(s)</semesterDuration>
-<Language>English</Language>
-<fieldOfStudy>0613 - Software and applications development and analysis </fieldOfStudy>
-<supplementFieldofStudy>Information and Communication Technologies (ICTs) not further defined or elsewhere </supplementFieldofStudy>
-<qqiProgramCode> code </qqiProgramCode>
-<programExtraInfo>Programme Approved on behalf of SoC.</programExtraInfo>
-</programDescriptor>
-
-<program_outcomes>
-<outcomeTitle>Programme Outcomes</outcomeTitle>
-<preDesc>On successful completion of this programme the learner will be able to :   </preDesc>
-<description>
-<lineOne>Demonstrate fundamental knowledge and understanding of theory, concepts and methods in computing field, relating to Software Development.   </lineOne>
-<lineTwo>Analyse, design, implement, test, deploy and document a technical software solution to solve complex problems.   </lineTwo>
-<lineThree>Apply best practices in designing computer solutions in a range of real-world contexts. </lineThree>
-<lineFour>Communicate effectively, present the results and defend the approach used in the development of a software solution.  </lineFour>
-<lineFive>Critically and effectively analyse problems through both independent and collaborative efforts in order to develop computing solutions as part of a software development team.  </lineFive>
-</description>
-</program_outcomes>
-
-<semesterSchedule>
-<semsterTitle></semsterTitle>
-<stageTitle></stageTitle>
-
-<stage1>
-<coreSubject>
-<moduleCode>H8INDB </moduleCode>
-<moduleTitle>Introduction to Databases </moduleTitle>
-</coreSubject>
-
-<coreSubject>
-<moduleCode>H8SDEV </moduleCode>
-<moduleTitle>Software Development </moduleTitle>
-</coreSubject>
-
-<coreSubject>
-<moduleCode>Optional </moduleCode>
-<moduleTitle> </moduleTitle>
-</coreSubject>
-
-<coreSubject>
-<moduleCode>H8CAO </moduleCode>
-<moduleTitle>Computer Architecture Operating Systems and Networks </moduleTitle>
-</coreSubject>
-
-<coreSubject>
-<moduleCode>H8STATS </moduleCode>
-<moduleTitle>Statistics </moduleTitle>
-</coreSubject>
-
-
-</stage1>
-
-</semesterSchedule>
-
+    <title>Certificate in Computing</title>
+    <programDescriptor>
+        <programCode>CCOMP</programCode>
+        <programDuration>1</programDuration>
+        <levelSpecifications>
+            <programLevel> 8 </programLevel>
+            <EQF_Level> 6 </EQF_Level>
+            <EHEA_Level> First Cycle</EHEA_Level>
+        </levelSpecifications>
+        <programCredits>20</programCredits>
+        <semesterDuration> 12 week(s)</semesterDuration>
+        <Language>English</Language>
+        <fieldOfStudy>0613 - Software and applications development and analysis </fieldOfStudy>
+        <supplementFieldofStudy>Information and Communication Technologies (ICTs) not further defined or elsewhere </supplementFieldofStudy>
+        <qqiProgramCode> code </qqiProgramCode>
+        <programExtraInfo>Programme Approved on behalf of SoC.</programExtraInfo>
+    </programDescriptor>
+    <program_outcomes>
+        <outcomeTitle>Programme Outcomes</outcomeTitle>
+        <preDesc>On successful completion of this programme the learner will be able to :   </preDesc>
+        <description>
+            <lineOne>Demonstrate fundamental knowledge and understanding of theory, concepts and methods in computing field, relating to Software Development.   </lineOne>
+            <lineTwo>Analyse, design, implement, test, deploy and document a technical software solution to solve complex problems.   </lineTwo>
+            <lineThree>Apply best practices in designing computer solutions in a range of real-world contexts. </lineThree>
+            <lineFour>Communicate effectively, present the results and defend the approach used in the development of a software solution.  </lineFour>
+            <lineFive>Critically and effectively analyse problems through both independent and collaborative efforts in order to develop computing solutions as part of a software development team.  </lineFive>
+        </description>
+    </program_outcomes>
+    <semesterSchedule>
+        <semsterTitle />
+        <stageTitle />
+        <stage1>
+            <coreSubject>
+                <moduleCode>H8INDB </moduleCode>
+                <moduleTitle>Introduction to Databases </moduleTitle>
+            </coreSubject>
+            <coreSubject>
+                <moduleCode>H8SDEV </moduleCode>
+                <moduleTitle>Software Development </moduleTitle>
+            </coreSubject>
+            <coreSubject>
+                <moduleCode>Optional </moduleCode>
+                <moduleTitle />
+            </coreSubject>
+            <coreSubject>
+                <moduleCode>H8CAO </moduleCode>
+                <moduleTitle>Computer Architecture Operating Systems and Networks </moduleTitle>
+            </coreSubject>
+            <coreSubject>
+                <moduleCode>H8STATS </moduleCode>
+                <moduleTitle>Statistics </moduleTitle>
+            </coreSubject>
+        </stage1>
+    </semesterSchedule>
 </certIn_Computing>

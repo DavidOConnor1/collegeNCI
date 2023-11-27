@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:group name="statisticGroup">
+    <xs:element name="totalPopulation" type="xs:integer" />
+    <xs:element name="natural_changes_per_1000" type="xs: decimal" />
+    <xs:element name = "fertility_rate" type="xs:decimal"/>
+</xs:group>
+
+
+<xs:element name="statistics">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="statistic">
+<xs:complexType>
+<xs: group ref="statisticGroup"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
