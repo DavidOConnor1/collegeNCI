@@ -15,3 +15,11 @@ $("#myButton").click(function()
     alert("Hello world");
 //some actions
 });
+
+$("#btn2").click(function(){
+    let fname = $("#fname").val();
+    
+    alert(fname);
+    
+}
+    );
