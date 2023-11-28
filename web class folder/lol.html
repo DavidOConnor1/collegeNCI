@@ -1,1 +1,35 @@
-<html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	
+	
+	
+</head>
+<body>
+  
+	<h1 id="maxGrade"></h1>
+    <script>
+	
+		var num1 = parseFloat(prompt(`Enter first grade:`));
+		var num2 = parseFloat(prompt(`Enter second grade: `));
+		var num3 = parseFloat(prompt(`Enter second grade: `));
+		
+		
+		if(num1 > num2 && num3)
+		{
+			document.getElementByID("maxGrade").innerText = num1;
+		} else if ( num2 > num1 && num3){
+			document.getElementByID("maxGrade").innerText = num2;
+		} else if (num3 > num2 && num3)
+		{
+			document.getElementByID("maxGrade").innerText = num3;
+		}
+		
+	
+	</script>
+	
+</body>
+</html>
